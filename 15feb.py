@@ -19,6 +19,12 @@ print('you can print string and variable using concatenation and using format st
 print('the addition between',x,'and',y,'is',x+y)
 # using format string
 print(f"the addition between {x} and {y} is {x+y}")
+#Some example of format string like print in same line and print next line in same print function
+print(f"the addition of {x} and {y} is {x + y} and "
+      f"the multiplication of {x} and {y} is {x * y}")
+# for next line
+print(f"the addition of {x} and {y} is {x + y} and \nthe "
+      f"multiplication of {x} and {y} is {x * y}")
 print('---------------------------------------n/')
 
 # Assignment 1 - calculate total profit for two goods
