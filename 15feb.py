@@ -1,4 +1,4 @@
-# In python you can perform any operation withou using any variable
+# In python you can perform any operation without using any variable
 print(2*3)
 print(2+3)
 print(3/2)
